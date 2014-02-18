@@ -67,7 +67,8 @@ document.getElementById("input").addEventListener("change", function()
 
 ####Options
 All options can be modified by changing the defaults at Image().defaults prior to processing.
-**Note: If you wish to change or add a watermark, you should replace the string value with an Image Object**
+
+*Note: If you wish to change or add a watermark, you should replace the string value with an Image Object*
 ```javascript
 // Global defaults
 var defaults = wm.defaults = {
