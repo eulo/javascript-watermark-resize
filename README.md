@@ -7,7 +7,6 @@ Adds functionality to the JS Image Object allowing it to compress, resize, crop 
 Useful for uploading images straight to S3 without the need to resize prior.
 
 ####Basic usage:
-
 ```javascript
 var image = new Image();
 
