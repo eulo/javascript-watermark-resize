@@ -31,8 +31,8 @@
         padding:    25,
         opacity:    0.8, // 100%
         watermark:  {
-            standard:   "img/watermark.png?"+(+(new Date())),
-            highres:    "img/watermark-high-res.png?"+(+(new Date()))
+            standard:   "/assets/img/watermark.png?"+(+(new Date())),
+            highres:    "/assets/img/watermark-high-res.png?"+(+(new Date()))
         },
         sizes:      { // width, height, crop, watermark
             large:      [1280, 768, true,  "highres",   1],
